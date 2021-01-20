@@ -1,0 +1,5 @@
+name: miningreward
+main: ovo.bukkit.miningreward.miningreward
+version: 1
+author: ovo
+softdepend: [Vault]
