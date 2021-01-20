@@ -1,0 +1,1 @@
+# MinecraftServer-plugin-mining-reward
