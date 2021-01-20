@@ -37,10 +37,12 @@ public class miningreward extends JavaPlugin implements Listener{
 		RegisteredServiceProvider<Economy> rsp = getServer().getServicesManager().getRegistration(Economy.class);
 		econ = rsp.getProvider();
 		
+		//获取一个插件的Plugin对象 对本插件来说目前暂无用处
+		/*
 		SimpleCommandMap sim = new SimpleCommandMap(getServer());
 		SimplePluginManager plm = new SimplePluginManager(getServer(), sim);
 		Plugin plugin = plm.getPlugin("miningreward");
-		
+		*/
 	}
 	
 	@EventHandler
